@@ -1,0 +1,24 @@
+{
+  "name": "Formulario-cadastro-pdo",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": "^7",
+    "respect/rest": "0.6.*",
+    "ramsey/uuid":"^3.0",
+    "symfony/console":"2.2"
+  },
+  "require-dev":{
+    "pds/skeleton": "^1.0",
+    "phpunit/phpunit":"^5.0",
+    "squizlabs/php_codesniffer":"^2.3",
+    "jakub-onderka/php-parallel-lint":"0.9.0",
+    "satooshi/php-coveralls":"0.5.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Formulario-cadastro-pdo\\": "root/PhpstormProjects/Formulario-cadastro-pdo"
+    }
+  }
+}
